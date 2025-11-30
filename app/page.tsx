@@ -172,19 +172,23 @@ const RecycopterSite = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 items-stretch sm:items-center justify-center md:justify-start">
-              <AngledButton className="flex items-center gap-2 justify-center w-full sm:w-auto">
-                <Download size={20} /> <span className="hidden sm:inline">Download Java Edition</span><span className="sm:hidden">Download</span>
-              </AngledButton>
-              <AngledButton primary={false} className="flex items-center gap-2 justify-center w-full sm:w-auto">
-                <Github size={20} /> Source Code
-              </AngledButton>
+              <a href="https://drive.google.com/drive/folders/1v1HDCOYMmTwczSwndK8_iqbb9Lme4jTf?usp=sharing" target='_blank' rel='noopener noreferrer'>
+                <AngledButton className="flex items-center gap-2 justify-center w-full sm:w-auto cursor-pointer">
+                  <Download size={20} /> <span className="hidden sm:inline">Download Jar</span><span className="sm:hidden">Download</span>
+                </AngledButton>
+              </a>
+              <a href="https://github.com/daffarahman/recycopter-java" target='_blank' rel='noopener noreferrer'>
+                <AngledButton primary={false} className="flex items-center gap-2 justify-center w-full sm:w-auto cursor-pointer">
+                  <Github size={20} /> Source Code
+                </AngledButton>
+              </a>
             </div>
           </div>
         </div>
-      </header>
+      </header >
 
       {/* The Motto / Divider Section */}
-      <section className="relative h-[50vh] min-h-[400px] md:h-[600px] w-full bg-slate-900 overflow-hidden border-y-8 border-amber-500">
+      < section className="relative h-[50vh] min-h-[400px] md:h-[600px] w-full bg-slate-900 overflow-hidden border-y-8 border-amber-500" >
         <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-2">
           <div className="bg-slate-800 relative h-full">
             <img
@@ -216,10 +220,10 @@ const RecycopterSite = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       {/* The Why (Problem) Section */}
-      <section id="about" className="py-16 md:py-24 px-4 md:px-6 bg-slate-50 border-b-2 border-slate-200">
+      < section id="about" className="py-16 md:py-24 px-4 md:px-6 bg-slate-50 border-b-2 border-slate-200" >
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="order-2 md:order-1">
@@ -248,10 +252,10 @@ const RecycopterSite = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       {/* The Solution Section */}
-      <section className="py-16 md:py-24 px-4 md:px-6 bg-white border-b-2 border-slate-200">
+      < section className="py-16 md:py-24 px-4 md:px-6 bg-white border-b-2 border-slate-200" >
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             {/* Image - Order change on mobile to be second? Typically problem -> visual -> solution text -> visual works well. Default stacking order is visual first here. */}
@@ -279,10 +283,10 @@ const RecycopterSite = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       {/* Features Section */}
-      <section id="features" className="py-16 md:py-24 px-4 md:px-6 bg-slate-50 overflow-hidden">
+      < section id="features" className="py-16 md:py-24 px-4 md:px-6 bg-slate-50 overflow-hidden" >
         <div className="container mx-auto">
           <SectionLabel number="03" text="FLIGHT SYSTEMS" />
           <h3 className="text-3xl md:text-5xl font-black uppercase mb-12 md:mb-16 text-center">Core Features</h3>
@@ -334,10 +338,10 @@ const RecycopterSite = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section >
 
       {/* Challenges & Opportunities (Dev Log) */}
-      <section id="devlog" className="py-16 md:py-24 px-4 md:px-6 bg-slate-900 text-slate-50">
+      < section id="devlog" className="py-16 md:py-24 px-4 md:px-6 bg-slate-900 text-slate-50" >
         <div className="container mx-auto">
           <SectionLabel number="04" text="DEVELOPMENT LOG" />
 
@@ -377,10 +381,10 @@ const RecycopterSite = () => {
 
           </div>
         </div>
-      </section>
+      </section >
 
       {/* Team Section */}
-      <section id="team" className="py-16 md:py-24 px-4 md:px-6 bg-amber-400">
+      < section id="team" className="py-16 md:py-24 px-4 md:px-6 bg-amber-400" >
         <div className="container mx-auto text-center">
           <h3 className="text-3xl md:text-4xl font-black uppercase mb-12 md:mb-16 text-slate-900 inline-block border-b-4 border-slate-900 pb-2">
             MEET THE DEVS
@@ -422,10 +426,10 @@ const RecycopterSite = () => {
 
           </div>
         </div>
-      </section>
+      </section >
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-slate-400 py-8 md:py-12 px-6 border-t-8 border-amber-600">
+      < footer className="bg-slate-900 text-slate-400 py-8 md:py-12 px-6 border-t-8 border-amber-600" >
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-slate-700 flex items-center justify-center">
@@ -443,9 +447,9 @@ const RecycopterSite = () => {
             <span className="font-bold text-amber-500">START CLEAN & RECYCLE</span>
           </div>
         </div>
-      </footer>
+      </footer >
 
-    </div>
+    </div >
   );
 };
 
