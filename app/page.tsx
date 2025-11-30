@@ -179,7 +179,7 @@ const RecycopterSite = () => {
               </a>
               <a href="https://github.com/daffarahman/recycopter-java" target='_blank' rel='noopener noreferrer'>
                 <AngledButton primary={false} className="flex items-center gap-2 justify-center w-full sm:w-auto cursor-pointer">
-                  <Github size={20} /> Source Code
+                  <Github size={20} /> GitHub
                 </AngledButton>
               </a>
             </div>
