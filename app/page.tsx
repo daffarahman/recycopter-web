@@ -135,7 +135,9 @@ const RecycopterSite = () => {
             <a href="#team" onClick={toggleMobileMenu} className="text-2xl font-black uppercase tracking-widest hover:text-amber-500">SQUAD</a>
 
             <div className="mt-8 border-t border-slate-700 pt-8 w-1/2 flex justify-center">
-              <AngledButton primary={true}>Download</AngledButton>
+              <a href="https://github.com/daffarahman/recycopter-java/releases" target='_blank' rel='noopener noreferrer'>
+                <AngledButton primary={true}>Download</AngledButton>
+              </a>
             </div>
           </div>
         </div>
@@ -172,7 +174,7 @@ const RecycopterSite = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 items-stretch sm:items-center justify-center md:justify-start">
-              <a href="https://drive.google.com/drive/folders/1v1HDCOYMmTwczSwndK8_iqbb9Lme4jTf?usp=sharing" target='_blank' rel='noopener noreferrer'>
+              <a href="https://github.com/daffarahman/recycopter-java/releases" target='_blank' rel='noopener noreferrer'>
                 <AngledButton className="flex items-center gap-2 justify-center w-full sm:w-auto cursor-pointer">
                   <Download size={20} /> <span className="hidden sm:inline">Download Jar</span><span className="sm:hidden">Download</span>
                 </AngledButton>
